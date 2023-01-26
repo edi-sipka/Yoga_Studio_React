@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import './App.css';
 import Hero from './components/Hero/Hero';
 

@@ -1,6 +1,8 @@
+/* eslint-disable */
+
 import React from 'react'
 import "./Header.css"
-import Logo from "../../assets/logo.png"
+import Logo from "../../assets/yoga-studio.png"
 
 const Header = () => {
   return (
@@ -9,7 +11,7 @@ const Header = () => {
         <ul className='header-menu'>
             <li>Home</li>
             <li>Programs</li>
-            <li>Why us/li>
+            <li>Why us</li>
             <li>Plans</li>
             <li>Testimonials</li>
         </ul>

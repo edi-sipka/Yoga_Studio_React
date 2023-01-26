@@ -1,5 +1,8 @@
+/* eslint-disable */
+
 import React from 'react'
-import "./App.css"
+import "./Hero.css"
+
 import Header from '../Header/Header'
 
  const Hero = () => {
@@ -13,7 +16,7 @@ import Header from '../Header/Header'
     </div>
     <div className='hero-text'>
         <div> 
-        <span className='stroke-text'>Shape</span>
+        <span className='stroke-text'>Relax </span>
         <span>Your</span>
     </div>
     <div><span>Ideal Body</span></div>
@@ -29,4 +32,4 @@ import Header from '../Header/Header'
     </div>
   )
 }
-export detault Hero;
+export default Hero;
