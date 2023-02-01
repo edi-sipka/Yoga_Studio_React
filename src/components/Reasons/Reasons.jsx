@@ -41,12 +41,19 @@ const Reasons = () => {
 <span>
 Lorem ipsum
 </span></div>
-<div>
-<img src={tick} />
-<span>
+</div>
+<span style={{
+  color: "var(--gray)",
+  fontWeight: "normal",
+}}
+  >
 Lorem ipsum
 </span>
-</div>
+
+<div className='partners'>
+  <img src={apple} />
+  <img src={sony} />
+  <img src={voque} />
 </div>
 </div>
 </div>

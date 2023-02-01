@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-const plansData = [
+export const plansData = [
   {
     icon: (
       <svg
