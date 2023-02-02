@@ -13,6 +13,26 @@
     justify-content: center;
     gap:3rem;
 }
+.plans-blur-1{
+    width:22rem;
+    height:30rem;
+    left:0;
+    background: rgba(253, 120, 43, 0.69);
+    position:absolute;
+    border-radius: 50%;
+    filter: blur(212px);
+    z-index:-9;
+}
+.plans-blur-2{
+    width:22rem;
+    height:30rem;
+    right:0;
+    background: rgba(253, 120, 43, 0.69);
+    position:absolute;
+    border-radius: 50%;
+    filter: blur(212px);
+    z-index:-9;
+}
 .plan{
     display:flex;
     flex-direction: column;
