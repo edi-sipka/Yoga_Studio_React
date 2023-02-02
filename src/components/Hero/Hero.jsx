@@ -10,6 +10,7 @@ import Header from '../Header/Header'
 
  const Hero = () => {
     const transition = {type: "spring", duration: 3}
+    const mobile = window.innerWidth<=768? true:false;
   return (
     <div className='hero'>
     <div className='blur hero-blur'></div>
@@ -17,7 +18,7 @@ import Header from '../Header/Header'
     <Header/>
     <div className='the-best-ad'>
         <motion.div
-        initial={{left:"268px"}}
+        initial={{left: mobile? "178px":"268px"}}
         whileInView={{left:"8px"}}
         transition={{...transition, type:"tween"}}
         ></motion.div>

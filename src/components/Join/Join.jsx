@@ -34,7 +34,7 @@ import emailjs from "@emailjs/browser"
             <form ref={form} className='email-container' onSubmit={sendEmail}>
                 <input type="email" name="user_email"
                 placeholder='Enter your Email and signup'></input>
-                <button className='btn btn-j'>Join us now</button>
+                <button className='btn btn-j'>Join us</button>
             </form>
         </div>
     </div>
