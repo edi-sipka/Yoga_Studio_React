@@ -7,6 +7,7 @@ import Heart from "../../assets/heart.png"
 import Calories from "../../assets/calories.png"
 import {motion} from "framer-motion"
 import Header from '../Header/Header'
+import NumberCounter from "number-counter"
 
  const Hero = () => {
     const transition = {type: "spring", duration: 3}
@@ -36,9 +37,9 @@ import Header from '../Header/Header'
     </div>
 
     <div className='figures'>
-    <div><span>5</span><span> different studios</span></div>
-    <div><span>100+</span><span>active members</span></div>
-    <div><span>50+</span><span>programs</span></div>
+    <div><span><NumberCounter end={5} start={1} delay="4" /></span><span> different studios</span></div>
+    <div><span><NumberCounter end={140} start={100} delay="4" preFix="+"/></span><span>active members</span></div>
+    <div><span><NumberCounter end={50} start={30} delay="4" preFix="+"/></span><span>programs</span></div>
 </div>
 <div className='hero-buttons'>
     <button className='btn'>Get Started</button>
