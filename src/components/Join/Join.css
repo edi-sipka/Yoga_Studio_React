@@ -1,7 +1,7 @@
  .Join{
     display:flex;
-    padding:0 2rem;
-    gap:10rem;
+    padding:2rem 2rem;
+    justify-content: space-between;
  }
 
  .left-j{
