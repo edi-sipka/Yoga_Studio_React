@@ -17,7 +17,7 @@
     width:22rem;
     height:30rem;
     left:0;
-    background: rgba(253, 120, 43, 0.69);
+    background: rgba(87, 196, 233, 0.69);
     position:absolute;
     border-radius: 50%;
     filter: blur(212px);
@@ -27,7 +27,7 @@
     width:22rem;
     height:30rem;
     right:0;
-    background: rgba(253, 120, 43, 0.69);
+    background: rgba(87, 196, 233, 0.69);
     position:absolute;
     border-radius: 50%;
     filter: blur(212px);
@@ -36,7 +36,7 @@
 .plan{
     display:flex;
     flex-direction: column;
-    background: var(--caloryCard);
+    background: rgb(169, 169, 169);
     color:white;
     gap:2rem;
     padding: 1.5rem;
@@ -44,7 +44,7 @@
 }
 
 .plan:nth-child(2){
-    background: var(--planCard);
+    background: var(--blue);
     transform: scale(1.1);
     font-size: 1rem;
     font-weight: bold;

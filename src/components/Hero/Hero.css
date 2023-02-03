@@ -15,7 +15,7 @@
 .right-h {
   flex: 1;
   position: relative;
-  background-color: var(--orange);
+  background-color: var(--blue);
 }
 
 .the-best-ad {
@@ -38,7 +38,7 @@
 
 .the-best-ad > div {
   position: absolute;
-  background-color: var(--orange);
+  background-color: var(--blue);
   width: 5.4rem;
   height: 80%;
   left: 8px;
@@ -53,8 +53,11 @@
   text-transform: uppercase;
   font-size: 4.5rem;
   font-weight: bold;
-  color: white;
+  color: rgb(255, 255, 255);
   text-overflow: inherit;
+}
+.stroke-blue{
+  color: #45acdf;
 }
 
 .hero-text > div:nth-of-type(3) {
@@ -69,7 +72,7 @@
   color: transparent;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
 .figures {
@@ -112,7 +115,7 @@
 
 .hero-buttons > :nth-child(1) {
   color: white;
-  background-color: var(--orange);
+  background-color: var(--blue);
   width: 8rem;
 }
 
@@ -120,7 +123,7 @@
   color: white;
   background-color: transparent;
   width: 8rem;
-  border: 2px solid var(--orange);
+  border: 2px solid var(--blue);
 }
 
 .right-h > .btn {
@@ -134,7 +137,7 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  background-color: var(--darkGrey);
+  background-color: var(--darkOrange);
   width: fit-content;
   padding: 1rem;
   align-items: start;
@@ -149,7 +152,7 @@
 }
 
 .heart-rate > :nth-child(2) {
-  color: var(--gray);
+  color: white;
 }
 
 .heart-rate > :nth-child(3) {
@@ -175,7 +178,7 @@
 .calories {
   display: flex;
   gap: 2rem;
-  background-color: var(--caloryCard);
+  background-color: var(--darkOrange);
   border-radius: 5px;
   padding: 1rem;
   width: fit-content;
@@ -195,7 +198,7 @@
 }
 
 .calories > div > :nth-child(1){
- color: var(--gray)
+ color: white;
 }
 
 .calories > div > :nth-child(2){
@@ -207,7 +210,7 @@
   width:22rem;
   height:30rem;
   left:0;
-  background: rgba(253, 120, 43, 0.69);
+  background: rgba(87, 196, 233, 0.69);
   position:absolute;
   border-radius: 50%;
   filter: blur(212px);

@@ -23,7 +23,7 @@
 .category{
     display:flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: var(--blue);
     padding: 2rem;
     gap: 1rem;
     color: white;

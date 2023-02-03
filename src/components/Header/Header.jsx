@@ -10,7 +10,7 @@ const Header = () => {
   const mobile = window.innerWidth <= 768 ? true : false;
   return (
     <div className='header'>
-        <img src={Logo} alt="logo" style={{width:"3.5rem", height:"3.5rem"}}/>
+        <img src={Logo} alt="logo" style={{width:"3.5rem", height:"4.5rem"}}/>
           {mobile === true ? (
             <div>
             <img src={Bars} style={{width:"1.5rem", height:"1.5rem"}}  />

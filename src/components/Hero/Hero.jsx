@@ -30,7 +30,7 @@ import NumberCounter from "number-counter"
         <span className='stroke-text'>Relax </span>
         <span>Your</span>
     </div>
-    <div><span>Body <span className='stroke-text'>and</span> Soul</span></div>
+    <div><span className='stroke-blue'>Body <span className='stroke-text'>and</span> Soul</span></div>
     <div>
     <span>We believe in tuning in to the creative guide within and leading <br/> through a heart-centered lens. We welcome all into our community <br/> to find joy and freedom within their body!</span>
     </div>

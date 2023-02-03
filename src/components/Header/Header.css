@@ -12,12 +12,13 @@
   list-style: none;
   display: flex;
   gap: 2rem;
-  color: white;
+  color: rgb(129, 129, 129);
+  font-size: 1rem;
 }
 
 .header-menu > li:hover {
   cursor: pointer;
-  color: var(--orange);
+  color: var(--blue);
 }
 @media screen and (max-width: 768px)
 {
