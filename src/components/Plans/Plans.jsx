@@ -11,9 +11,9 @@ import whiteTick from "../../assets/whiteTick.png";
     <div className='blur plans-blur-1'></div>
     <div className='blur plans-blur-2'></div>
     <div className='programs-header'>
-        <span className='stroke-text'>Relax </span>
-        <span> Your Body</span>
-        <span className='stroke-text'> now with us</span>
+        <span className='stroke-text'>Check </span>
+        <span> Our</span>
+        <span className='stroke-text'> Class Plans</span>
     </div>
 
     <div className='plans'>

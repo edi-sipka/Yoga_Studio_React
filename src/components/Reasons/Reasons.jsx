@@ -30,16 +30,16 @@ const Reasons = () => {
 <div className='details-r'>
 <div>
 <img src={tick} />
-<span> Lorem ipsum</span>
+<span> Virtual and In-Studio Classes</span>
 </div>
 <div>
 <img src={tick} />
-<span>Lorem ipsum</span>
+<span>SOUND BATHS / MEDITATION</span>
 </div>
 <div>
 <img src={tick} />
 <span>
-Lorem ipsum
+Treatments With Experienced Professionals
 </span></div>
 </div>
 <span style={{
@@ -47,7 +47,7 @@ Lorem ipsum
   fontWeight: "normal",
 }}
   >
-Lorem ipsum
+Our Gold partners
 </span>
 
 <div className='partners'>

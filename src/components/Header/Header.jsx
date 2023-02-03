@@ -2,7 +2,7 @@
 
 import React from 'react'
 import "./Header.css"
-import Logo from "../../assets/yoga-studio.png"
+import Logo from "../../assets/yoga.png"
 import Bars from "../../assets/bars.png"
 import { Link } from 'react-scroll'
 
