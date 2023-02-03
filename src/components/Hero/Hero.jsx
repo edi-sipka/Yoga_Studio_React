@@ -3,8 +3,8 @@ import React from 'react'
 import "./Hero.css"
 import yoga_girl from "../../assets/yoga-girl.png"
 import header_sec from "../../assets/header-sec.png"
-import Heart from "../../assets/heart.png"
-import Calories from "../../assets/calories.png"
+import YogaIcon from "../../assets/yoga-icon-f.png"
+import Clock from "../../assets/clock.png"
 import {motion} from "framer-motion"
 import Header from '../Header/Header'
 import NumberCounter from "number-counter"
@@ -23,23 +23,23 @@ import NumberCounter from "number-counter"
         whileInView={{left:"8px"}}
         transition={{...transition, type:"tween"}}
         ></motion.div>
-        <span>Lorem ipsum lorem ipsum lorem ipsum</span>
+        <span>Empowered Movement Studio & Holistic Suite</span>
     </div>
     <div className='hero-text'>
         <div> 
         <span className='stroke-text'>Relax </span>
         <span>Your</span>
     </div>
-    <div><span>Ideal Body</span></div>
+    <div><span>Body <span className='stroke-text'>and</span> Soul</span></div>
     <div>
-    <span>Lorem ipsum lorem ipsum lorem ipsum </span>
+    <span>We believe in tuning in to the creative guide within and leading <br/> through a heart-centered lens. We welcome all into our community <br/> to find joy and freedom within their body!</span>
     </div>
     </div>
 
     <div className='figures'>
-    <div><span><NumberCounter end={5} start={1} delay="4" /></span><span> different studios</span></div>
+    <div><span><NumberCounter end={3} start={1} delay="4" /></span><span> different studios</span></div>
     <div><span><NumberCounter end={140} start={100} delay="4" preFix="+"/></span><span>active members</span></div>
-    <div><span><NumberCounter end={50} start={30} delay="4" preFix="+"/></span><span>programs</span></div>
+    <div><span><NumberCounter end={20} start={9} delay="4" preFix="+"/></span><span>programs</span></div>
 </div>
 <div className='hero-buttons'>
     <button className='btn'>Get Started</button>
@@ -53,8 +53,8 @@ import NumberCounter from "number-counter"
        whileInView={{right:"4rem"}}
        transition={transition}       
         className='heart-rate'>
-        <img src={Heart} alt="logo heart" />
-        <span>Heart Rate</span><span>116 bpm</span>
+        <img src={YogaIcon} alt="logo yoga" />
+        <span>Yoga/Pilates</span><span>Every day</span>
     </motion.div>
 
     <img src={yoga_girl} alt="" className='hero-image'/>
@@ -69,9 +69,9 @@ import NumberCounter from "number-counter"
        whileInView={{right:"28rem"}}
        transition={transition} 
        className='calories'>
-        <img src={Calories} alt="logo calories photo"/>
+        <img src={Clock} alt="clock icon"/>
         <div>
-        <span>Calories Burned</span><span>220 kcal</span>
+        <span>Meditation sessions</span><span>20 min</span>
 </div>
     </motion.div>
 

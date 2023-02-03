@@ -8,9 +8,9 @@ const Programs = () => {
   return (
     <div className='Programs' id="programs">
         <div className='programs-header'>
-            <span className="stroke-text">Explore our</span>
-            <span>Programs</span>
-            <span className="stroke-text">to relax you</span>
+            <span className="stroke-text">Love</span>
+            <span>Yourself</span>
+            <span className="stroke-text">Deeply</span>
         </div>
 
         <div className='program-categories'>
