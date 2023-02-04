@@ -119,6 +119,12 @@
   width: 8rem;
 }
 
+.hero-buttons > :hover {
+  color: white;
+  background-color: rgb(250, 144, 6);
+  width: 8rem;
+}
+
 .hero-buttons > :nth-child(2) {
   color: white;
   background-color: transparent;
@@ -148,7 +154,7 @@
 }
 
 .heart-rate > img {
-  width: 2rem;
+  width: 3rem;
 }
 
 .heart-rate > :nth-child(2) {
@@ -188,7 +194,7 @@
 }
 
 .calories > img {
-  width: 3rem;
+  width: 4rem;
 }
 
 .calories > div {

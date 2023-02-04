@@ -1,7 +1,7 @@
  .Join{
     display:flex;
     padding:2rem 2rem;
-    justify-content: space-between;
+    justify-content: space-around;
  }
 
  .left-j{
@@ -48,7 +48,7 @@
  }
  
  .btn-j{
-    background-color: var(--orange);
+    background-color: var(--blue);
     color:white;
  }
  @media screen and (max-width: 768px)

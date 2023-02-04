@@ -62,7 +62,7 @@
     height: 19rem;
     right:7rem;
     top:4rem;
-    background: var(--planCard);
+    background: linear-gradient(210.41deg, hsl(180deg 51% 52%) 2.14%, #52759e 100.75%);
 }
 .arrows{
     display: flex;
