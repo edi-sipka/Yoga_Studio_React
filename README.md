@@ -25,7 +25,6 @@
   - [🔭 Future Features ](#future-features)
   - [🤝 Contributing ](#contributing)
   - [⭐️ Show your support ](#️show-your-support)
-  - [🙏 Acknowledgments ](#acknowledgments)
   - [❓ FAQ ](#faq)
   - [📝 License ](#license)
 
@@ -44,6 +43,7 @@
 
 - **Landing page**
 - **Animations**
+- **Responsivness**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -52,15 +52,14 @@
 ## 🚀 App Preview <a name="preview"></a>
 
 ![Preview 1](./src/assets/preview1.png)
-![Preview 2](./src/assets/preview2.png)
-![Preview 3](./src/assets/preview3.png)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🚀 Live Demo / Coming soon  <a name="live-demo"></a>
 
-- [Live Demo]()
+- [Live Demo](https://crystalyogastudio.pages.dev/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,37 +109,14 @@ Run tests
 - LinkedIn: [Edi Sipka](https://www.linkedin.com/in/edi-%C5%A1ipka-5b681b202/)
 
 
-👤 **Praises Tula**
-
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PraisesPJMT/)
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/praises-tula/)
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/PraisesPJMT/)
-
-👤 **Nonhlanhla**
-
-- GitHub: [@githubhandle](https://github.com/29td)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nonhlanhla-mndebele-ab7448226/)
-
-
-👤 **Youta Christabelle**
-
-- GitHub: [Christabelle143](https://github.com/Christabelle143)
-- Twitter: [@christabelleyo](https://twitter.com/christabelleyo)
-- LinkedIn: [YoutaChristabelle](https://linkedin.com/in/YoutaChristabelle)
-
-👤 **Okolike Assumpta**
-
-- GitHub: [@githubhandle](https://github.com/summyalena)
-- Twitter: [@twitterhandle](https://twitter.com/AOkolike)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/okolike-assumpta)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Rotation of car models
-- Improvements on UI design
+- 
+- Book a class
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,7 +125,7 @@ Run tests
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/edi-sipka/Vip_Cars_Rails/issues).
+Feel free to check the [issues page](https://github.com/edi-sipka/Yoga_Studio_React/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,19 +133,11 @@ Feel free to check the [issues page](https://github.com/edi-sipka/Vip_Cars_Rails
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project buy the team a [drink](.../.../)
+If you like this project buy me [drink](.../.../)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to acknowledge:
-
-- [Microverse](https://www.microverse.org/) for the opportunity to work on this project
-- [The creative common](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=) for the design
-- Design from [Murat Korkmaz on Behance](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -182,9 +150,6 @@ I would like to acknowledge:
 
   - After cloning repository, run `npm install` to install all dependencies. Then run `npm start` to run the project.
 
-- **How I can run tests?**
-
-  - After cloning repository, run `npm install` to install all dependencies. Then run `npm test` to run the tests.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
