@@ -1,9 +1,14 @@
 /* make variables */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
   --lightgray: #d9d9d9;
   --gray: #6b6b6b;
   --blue: hsl(196, 97%, 62%);
-  --darkOrange:rgb(248, 148, 48);
+  --darkOrange: rgb(248, 148, 48);
   --caloryCard: #656565;
   --planCard: linear-gradient(210.41deg, #f8cf83 2.14%, #fd991e 100.75%);
   --appColor: #090606;
@@ -17,8 +22,4 @@
   flex-direction: column;
   gap: 6rem;
   overflow: hidden;
-}
-
-::-webkit-scrollbar {
-  display: none;
 }

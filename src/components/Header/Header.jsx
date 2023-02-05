@@ -7,7 +7,7 @@ import Bars from "../../assets/bars.png"
 import { Link } from 'react-scroll'
 
 const Header = () => {
-  const mobile = window.innerWidth <= 768 ? true : false;
+  const mobile = window.innerWidth <= 1000 ? true : false;
   return (
     <div className='header'>
         <img src={Logo} alt="logo" style={{width:"3.5rem", height:"4.5rem"}}/>

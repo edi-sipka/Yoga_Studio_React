@@ -56,8 +56,20 @@
   color: rgb(255, 255, 255);
   text-overflow: inherit;
 }
-.stroke-blue{
+
+.stroke-blue {
   color: #45acdf;
+}
+
+.figures > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.calories > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hero-text > div:nth-of-type(3) {
@@ -78,11 +90,6 @@
 .figures {
   display: flex;
   gap: 2rem;
-}
-
-.figures > div {
-  display: flex;
-  flex-direction: column;
 }
 
 .figures > div > span:nth-of-type(1) {
@@ -197,93 +204,94 @@
   width: 4rem;
 }
 
-.calories > div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.calories > div > :nth-child(1) {
+  color: white;
 }
 
-.calories > div > :nth-child(1){
- color: white;
-}
-
-.calories > div > :nth-child(2){
+.calories > div > :nth-child(2) {
   color: white;
   font-size: 1.5rem;
- }
+}
 
- .hero-blur{
-  width:22rem;
-  height:30rem;
-  left:0;
+.hero-blur {
+  width: 22rem;
+  height: 30rem;
+  left: 0;
   background: rgba(87, 196, 233, 0.69);
-  position:absolute;
+  position: absolute;
   border-radius: 50%;
   filter: blur(212px);
-  z-index:-9;
- }
+  z-index: -9;
+}
 
- @media screen and (max-width: 768px)
- {
-  .hero{
+@media screen and (max-width: 768px) {
+  .hero {
     flex-direction: column;
   }
-  .the-best-ad{
-    margin-top:0;
-    font-size:small;
-    align-self:center;
-    transform:scale(0.8);
+
+  .the-best-ad {
+    margin-top: 0;
+    font-size: small;
+    align-self: center;
+    transform: scale(0.8);
   }
 
-  .hero-text{
-    font-size:xx-large;
-    align-items:center;
-    justify-content:center;
+  .hero-text {
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
   }
-  .hero-text>div:nth-of-type(3){
+
+  .hero-text > div:nth-of-type(3) {
     font-size: small;
     font-weight: 200;
     letter-spacing: 1px;
     text-align: center;
   }
 
-  .hero-buttons{
-    justify-content:center;
+  .hero-buttons {
+    justify-content: center;
   }
 
-  .figures>div>span:nth-of-type(1){
+  .figures > div > span:nth-of-type(1) {
     font-size: small;
   }
-  .figures>div>span:nth-of-type(2){
+
+  .figures > div > span:nth-of-type(2) {
     font-size: small;
     margin-left: -5px;
   }
 
-  .right-h{
-    position:relative;
-    background:none;
+  .right-h {
+    position: relative;
+    background: none;
   }
-  .heart-rate{
-    left:1rem;
-    top:2rem;
+
+  .heart-rate {
+    left: 1rem;
+    top: 2rem;
   }
-  .calories{
-    position:relative;
-    top:5rem;
-    left:2rem;
+
+  .calories {
+    position: relative;
+    top: 5rem;
+    left: 2rem;
   }
-  .calories>img{
-    width:2rem;
+
+  .calories > img {
+    width: 2rem;
   }
-  .calories>div>:nth-child(2){
-    color:white;
-    font-size:1rem
+
+  .calories > div > :nth-child(2) {
+    color: white;
+    font-size: 1rem;
   }
-  .hero-image{
-    position:relative;
-    width:15rem;
-    left:4rem;
-    top:5rem;
-    align-self:center;
+
+  .hero-image {
+    position: relative;
+    width: 15rem;
+    left: 4rem;
+    top: 5rem;
+    align-self: center;
   }
- }
+}
