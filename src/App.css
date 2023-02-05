@@ -1,12 +1,17 @@
 /* make variables */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
-  --lightgray: #D9D9D9;
-  --gray: #9c9c9c;
-  --orange: #f48915;
-  --darkGrey: #464D53;
+  --lightgray: #d9d9d9;
+  --gray: #6b6b6b;
+  --blue: hsl(196, 97%, 62%);
+  --darkOrange: rgb(248, 148, 48);
   --caloryCard: #656565;
-  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
-  --appColor:  #3c3f45;
+  --planCard: linear-gradient(210.41deg, #f8cf83 2.14%, #fd991e 100.75%);
+  --appColor: #090606;
 }
 
 .App {
@@ -17,7 +22,4 @@
   flex-direction: column;
   gap: 6rem;
   overflow: hidden;
-}
-::-webkit-scrollbar{
-  display: none;
 }
